@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../css/customestyle.css">
+</head>
+<body>
+    
+    <header>
+        <div>
+            <h1>College of Information and Computing Sciences</h1>
+            <h3>Bachelor Of Sciences in Information System</h3>
+        </div>
+        <div class="container">
+            <a href="../index.html">Home</a> |
+            <a href="../pages/about.html">About</a> |
+            <a href="../pages/contact.html">Contact us</a> |
+            <a href="../pages/inquiry.html">Inquiry</a> |
+            <a href="../pages/profile.html">Profile</a> |
+            <button id="submit_btn"><a href="pages/login.html">Login</a></button>
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../pages/headings.htm">Heading</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/list.htm">Lists</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/table.htm">Tables</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/form.htm">Forms</a>
+                </li>
+            
+            </ul>
+            <ul>
+                <li>
+                    <a href="../pages/img.htm">images</a>
+                </li>
+            
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Table for HTML</h1>
+            <p>Here is a table showing some popular programming languages along with their year of creation and the developer:</p>
+            
+            <table border="1">
+                <tr>
+                    <th>Programming Language</th>
+                    <th>Year Created</th>
+                    <th>Developer</th>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>1991</td>
+                    <td>Guido van Rossum</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>1995</td>
+                    <td>Brendan Eich</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>1995</td>
+                    <td>James Gosling</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>1985</td>
+                    <td>Bjarne Stroustrup</td>
+                </tr>
+            </table>
+
+            <h1>TABLE FORMAT </h1>
+            <p align="justify">This is the Sample Table Content</p>
+           
+            <table border="1"class="table_data">
+                        <tr>
+                            <th>Product</th>
+                            <th>Category</th>
+                            <th>price</th>
+                        </tr>
+                        <tr>
+                            <td>Laptop</td>
+                            <td>Electronics</td>
+                            <td>$900</td>
+                        </tr>
+                        <tr>
+                            <td>MobilePhone</td>
+                            <td>Electronics</td>
+                            <td>$800</td>
+                        </tr>
+                        <tr>
+                            <td>tablet</td>
+                            <td>Electronics</td>
+                            <td>$700</td>
+                        </tr>
+                </table>
+                       <p>THIS IS FOR THE TABLE STRUCTURE WITH THEAD,TBODY AND TFOOT </p>
+                <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ichaan</td>
+                            <td>20</td>
+                            <td>Male</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>JOAN</td>
+                            <td>19</td>
+                            <td>Female</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>lester</td>
+                            <td>21</td>
+                            <td>Male</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>JAKE</td>
+                            <td>24</td>
+                            <td>MALE</td>
+                        </tr>
+                    </tfoot>
+                </table>
+           </table>
+
+           <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">John Lester Fernandez</td>
+                        <td>21</td>
+                        <td>BSIS-3B</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>BSIS-3B</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>BSIS-3B</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><small><b>information</b></small></td>
+                        <td><small>info</small></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <!--Nested Table-->
+            <h1><b>Nested Table</b></h1>
+            <table border="1">
+                <figcaption><b>Table.</b>This is the Sample data of a table</figcaption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Content of a table</th>
+                    </tr>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quality</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Puma shoes
+                            <table border="1">
+                                <tr>
+                                    <th>Brand</th>
+                                    <th>color</th>
+                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>40</td>
+                                        <td>white</td>
+                                    </tr>
+                                    <tr>
+                                        <td>39</td>
+                                        <td>brown</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>34</td>
+                        <td>3300</td>
+                    </tr>
+                    <tr>
+                        <td>Jordan shoes</td>
+                        <td>30</td>
+                        <td>4500</td>
+                    </tr>
+                    <tr>
+                        <td>Nike Shoes</td>
+                        <td>34</td>
+                        <td>3500</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </article>
+    </section>
+    
+    <footer> 
+        <h2>Tutorialspoint</h2>
+        <div class="footer-links">
+            <a href="../pages/aboutus.htm">About us</a>
+            <a href="../pages/refund.htm">Refund policy</a>
+            <a href="../pages/terms.htm">Terms of use</a>
+            <a href="../pages/privacy.htm">Privacy policy</a>
+            <a href="../pages/faqs.htm">FAQ's</a>
+            <a href="../pages/affiates.htm">Affiliates</a>
+            <a href="../pages/contact.htm">Contact</a>
+        </div>
+        <div class="footer-info"> 
+            <p>© 2024 TUTORIALS POINT (INDIA) PRIVATE LIMITED. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
